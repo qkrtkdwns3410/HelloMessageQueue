@@ -1,10 +1,11 @@
 package net.harunote.hellomessagequeue.step3;
 
 public class NotificationMessage {
-    private String message;
+    private final String message;
 
     // 기본 생성자 (필수)
     public NotificationMessage() {
+        message = "";
     }
 
     // 선택
@@ -16,9 +17,5 @@ public class NotificationMessage {
         return message;
     }
 
-    // 필수
-    public void setMessage(String message) {
-        this.message = message;
-    }
 }
 
