@@ -4,6 +4,7 @@ spring:
     port: 5672
     username: guestuser
     password: guestuser
+    virtual-host: /dev
   application:
     name: HelloMessageQueue
 server:
